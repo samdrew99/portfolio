@@ -1,0 +1,539 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #ADD8E6;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+
+}
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .01em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+h1{
+  font-size: 50px;
+  line-height: 1;
+  text-align: center;
+  padding-top: 50px;
+  color:black;
+}
+
+h2{
+  font-size: 27px;
+  line-height: 1.5;
+  color:black;
+  font-weight: bold;
+  text-shadow:
+    0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1;
+  color:black;
+}
+nav ul{
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li{
+  padding-right: 20px;
+  display: inline;
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;/*Your code here - position relative to the parent */;
+  top: -40px;     /*Your code here - place 40px higher */
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skip a:focus{
+  top: auto;
+}
+
+:focus{
+  border: 2px solid black;
+}
+footer{
+  color: black;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+.nav{
+  background-color: #ADD8E6;
+  padding-top: 20px ;
+  padding-bottom: 20px;
+  display: inline-block;
+  text-align: right;
+  font-size: 14px;
+  width: auto;
+}
+
+header{
+  text-align: center;
+  color:black;;
+  height: 150px;
+  background-attachment: fixed;
+  background-image: url("../images/parallax.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav ul li a.active-page{
+  border-style: solid;
+  border-color:#60606b;
+  font-weight: bold;
+}
+@media screen and (min-width:769px ){
+  .nav{
+    background-color: #ADD8E6;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    width: auto;
+  }
+  .home-main{
+    text-align: center;
+  }
+.family-image{
+  padding-top: 10px;
+  width: 50%;
+  justify-content:  center;
+  margin: 0;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  padding-left: 300px;
+}
+.gallery{
+  padding-left: 60px;
+}
+.gallery img[src="images/parker.jpg"]:hover{
+  opacity: 0.3;
+}
+
+.gallery img[src="images/alyson.jpg"]:hover{
+  opacity: 0.3;
+}
+.gallery img[src="images/harper.png"]:hover{
+  opacity: 0.3;
+}
+.gallery img[src="images/sam.png"]:hover{
+  opacity: 0.3;
+}
+.gallery img[src="images/keegan.jpg"]:hover{
+  opacity: 0.3;
+}
+.gallery img[src="images/ellie.jpg"]:hover{
+  opacity: 0.3;
+}
+.gallery img[src="images/dixie.jpg"]:hover{
+  opacity: 0.3;
+}
+.gallery img[src="images/family1.png"]:hover{
+  opacity: 0.3;
+}
+.gallery img[src="images/scottie.jpg"]:hover{
+  opacity: 0.3;
+}
+
+
+.Dogs-image{
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.parker-image{
+  padding-top: 50px;
+  justify-content: left;
+  padding-right: 1000px;
+
+
+}
+
+.alyson-image{
+  padding-top: 50px;
+  justify-content: right;
+  padding-left: 1000px;
+
+
+}
+
+
+.Harper-image{
+  padding-top: 50px;
+  justify-content: left;
+  padding-right: 1000px;
+
+
+}
+
+.Sam-image{
+  padding-top: 50px;
+  justify-content:  center;
+  padding-left: 500px;
+
+}
+
+.Keegan-image{
+  padding-top: 50px;
+  justify-content: right;
+  padding-left: 1000px;
+
+}
+.dogs-main{
+  text-align: center;
+
+}
+
+.contact{
+  text-align: center;
+
+}
+.form{
+  text-align: center;
+  padding-top: 60px;
+
+}
+.family1-image{
+  padding-top: 50px;
+  width: 100%;
+  justify-content:  center;
+  margin: 0 auto;
+
+}
+
+
+}
+
+
+/* mobile view */
+@media screen and (max-width: 414px){
+
+.home-main{
+  text-align: center;
+  /* margin-bottom: 40%; */
+
+  /* background-color: #ADD8E6; */
+
+
+}
+
+.family-image{
+  padding-top: 10px;
+  width: 80%;
+  justify-content:  center;
+  margin: 0;
+}
+
+.gallery{
+
+
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding:0;
+  overflow: none;
+  flex-wrap: wrap;
+
+}
+.gallery img{
+  width:98%;
+}
+.parker{
+
+justify-content: center;
+
+
+}
+.parker-image{
+  padding-top: 50px;
+  width: 100%;
+  justify-content:  center;
+  margin: 0 auto;
+
+}
+
+.alyson{
+  padding-top: 50px;
+  width: 100%;
+  justify-content:  center;
+  margin: 0 auto;
+
+
+}
+.alyson-image{
+  padding-top: 50px;
+  width: 100%;
+  justify-content:  center;
+  margin: 0 auto;
+
+}
+
+.harper{
+
+}
+.Harper-image{
+  padding-top: 50px;
+  width: 100%;
+  justify-content:  center;
+  margin: 0 auto;
+
+}
+.sam{
+
+}
+.Sam-image{
+  padding-top: 50px;
+  width: 100%;
+  justify-content:  center;
+  margin: 0 auto;
+
+}
+.keegan{
+
+}
+.Keegan-image{
+  padding-top: 50px;
+  width: 100%;
+  justify-content:  center;
+  margin: 0 auto;
+
+}
+.dogs-main{
+  text-align: center;
+
+}
+.Dogs-image{
+  width:100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+
+}
+.contact{
+  text-align: center;
+
+}
+.form{
+  text-align: center;
+  padding-top: 60px;
+
+}
+.family1-image{
+  padding-top: 50px;
+  width: 100%;
+  justify-content:  center;
+  margin: 0 auto;
+
+}
+
+
+
+}
+/* tablet view */
+@media screen and (min-width:415px) and (max-width: 768px){
+  .home-main{
+    text-align: center;
+
+
+
+  }
+
+  .family-image{
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    justify-content:  center;
+    margin: 0 auto;
+  }
+
+  .gallery{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     padding-left: 25px;
+
+
+
+  }
+  .gallery img{
+    width:48%;
+  }
+  .parker{
+    justify-content: right;
+    padding-right: 400px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+
+
+
+  }
+  .parker-image{
+    justify-content: right;
+    padding-left: 300px;
+
+
+  }
+  .alyson{
+    justify-content: right;
+    padding-right: 400px;
+    padding-left: 30px;
+
+  }
+
+  .alyson-image{
+    justify-content: right;
+    padding-left: 300px;
+
+
+
+
+  }
+  .harper{
+    justify-content: right;
+    padding-right: 400px;
+    padding-left: 30px;
+
+
+  }
+  .Harper-image{
+    justify-content: right;
+    padding-left: 300px;
+
+  }
+  .sam{
+    justify-content: right;
+    padding-right: 400px;
+    padding-left: 30px;
+
+  }
+  .Sam-image{
+    justify-content: right;
+    padding-left: 300px;
+
+
+  }
+  .keegan{
+    justify-content: right;
+    padding-right: 400px;
+    padding-left: 30px;
+
+  }
+  .Keegan-image{
+    justify-content: right;
+    padding-left: 300px;
+
+
+  }
+  .dogs-main{
+    justify-content: right;
+    padding-right: 400px;
+    padding-left: 30px;
+
+
+  }
+  .Dogs-image{
+    justify-content: right;
+    padding-left: 300px;
+
+  }
+  .contact{
+    justify-content: right;
+    padding-right: 400px;
+    padding-left: 30px;
+
+
+  }
+  .form{
+    justify-content: right;
+    padding-right: 400px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+  }
+  .family1-image{
+    justify-content: right;
+    padding-left: 300px;
+
+
+  }
+
+}
+    /* desktop */
+    @media screen and (prefers-reduced-motion: reduce){
+      html{
+          scroll-behavior: auto;
+}
+      .skip a{
+        background: white;
+        left: 0;
+        padding: 6px;
+        position: absolute;
+        top: -40px;
+        -webkit-transition: none !important;
+        transition: none !important;
+        z-index: 1;
+      }
+
+      .skip a:focus{
+        top:0;
+      }
+    }
